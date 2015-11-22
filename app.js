@@ -18,10 +18,10 @@ var options = {
 
 app.use('/api', ExpressPeerServer(server, options));
 
-// OR
+/* OR
 
 var server = require('http').createServer(app);
 
 app.use('/peerjs', ExpressPeerServer(server, options));
 
-server.listen(9000);
+server.listen(9000);*/
